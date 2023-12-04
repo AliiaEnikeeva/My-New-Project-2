@@ -21,10 +21,7 @@ public class Homework4 {
                 result = number_a + number_b;
                 System.out.println("Сумма чисел равна:" + (result));
             }
-            case "-" -> {
-                result = number_a - number_b;
-                System.out.println("Разность чисел равна:" + (result));
-            }
+
             
         }
     }
