@@ -11,7 +11,7 @@ public class Homework4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите первое число: ");
         int number_a = Integer.parseInt(scanner.next());
-        System.out.println("Введите вид операции (+, -, *, /): ");
+        System.out.println("Введите вид операции (+, -, *): ");
         String operation = scanner.next();
         System.out.println("Введите второе число: ");
         int number_b = Integer.parseInt(scanner.next());
@@ -29,10 +29,7 @@ public class Homework4 {
                 result = number_a * number_b;
                 System.out.println("Произведение чисел равно:" + (result));
             }
-            case "/" -> {
-                result = number_a / number_b;
-                System.out.println("Результат деления чисел равен:" + (result));
-            }
+
         }
 
     }
