@@ -11,16 +11,13 @@ public class Homework4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите первое число: ");
         int number_a = Integer.parseInt(scanner.next());
-        System.out.println("Введите вид операции (+, -): ");
+        System.out.println("Введите вид операции (): ");
         String operation = scanner.next();
         System.out.println("Введите второе число: ");
         int number_b = Integer.parseInt(scanner.next());
         int result;
         switch (operation) {
-            case "+" -> {
-                result = number_a + number_b;
-                System.out.println("Сумма чисел равна:" + (result));
-            }
+           
         }
     }
 }
