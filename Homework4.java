@@ -29,6 +29,10 @@ public class Homework4 {
                 result = number_a * number_b;
                 System.out.println("Произведение чисел равно:" + (result));
             }
+            case "/" -> {
+                result = number_a / number_b;
+                System.out.println("Результат деления чисел равен:" + (result));
+            }
         }
     }
 }
