@@ -27,7 +27,7 @@ public class Homework4 {
             }
             case "*" -> {
                 result = number_a * number_b;
-                System.out.println("Произведение чисел равно:" + (result));
+                
             }
             case "/" -> {
                 result = number_a / number_b;
