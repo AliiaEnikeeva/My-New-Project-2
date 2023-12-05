@@ -23,7 +23,7 @@ public class Homework4 {
             }
             case "-" -> {
                 result = number_a - number_b;
-                System.out.println("Разность чисел равна:" + (result));
+                
             }
             case "*" -> {
                 result = number_a * number_b;
@@ -31,7 +31,7 @@ public class Homework4 {
             }
             case "/" -> {
                 result = number_a / number_b;
-                
+            
             }
         }
     }
